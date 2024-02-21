@@ -27,7 +27,7 @@ def getRandomID():
     return genID
 
 
-def getRandomAccount():  # not sure if it will work
+def getRandomAccount(): 
     sql = "select account_number from CUSTOMER"
     receiveIDs = mycursor(sql)
     genID = str(r.randint(10000000000, 99999999999))
