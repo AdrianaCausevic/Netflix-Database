@@ -6,7 +6,7 @@ def mycursor(sql):
     mydb = con.connect(
         host="localhost",
         user="root",
-        password="pass2003",
+        password="password",
         database="NETFLIX"
     )
     test = mydb.cursor()
