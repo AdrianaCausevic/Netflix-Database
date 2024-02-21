@@ -14,7 +14,7 @@ def mycursor(sql):
     return tuple(test)
 
 
-def getRandomID():  # not sure if it will work
+def getRandomID(): 
     sqlMovie = "select movie_id from MOVIE"
     receiveMovieIDs = mycursor(sqlMovie)
     sqlTV = "select S_id from TV_SHOW"
